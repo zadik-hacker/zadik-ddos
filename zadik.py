@@ -98,7 +98,7 @@ def starturl():
 
 def floodmode():
 	global choice1
-	choice1 = input("Você deseja executar a ferramenta de HTTP "0" (sem privilégios de root necessários), a ferramenta de TCP "1" ou a ferramenta de UDP "2" ?")
+	choice1 = input("Você deseja executar a ferramenta de HTTP 0 (sem privilégios de root necessários), a ferramenta de TCP 1 ou a ferramenta de UDP 2 ?")
 	if choice1 == "0":
 		proxymode()
 	elif choice1 == "1":
