@@ -228,7 +228,7 @@ def inforgeget():
 			out_file.close()
 		else:
 			pass
-		url = "https://www.inforge.net/xi/forums/liste-proxy.1118/"
+		url = "https://www.inforge.net/forum/threads/vn5socks-net-04-10-2021-socks-5-4.606337/"
 		soup = BeautifulSoup(urllib.request.urlopen(url)) 
 		print ("\ninforge.netからダウンロード中です...")
 		base = "https://www.inforge.net/xi/"                       
